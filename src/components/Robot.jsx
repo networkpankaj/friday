@@ -28,17 +28,19 @@ export function Robot(props) {
     .to(robot.current.rotation, {y: 1}, 6)   
     .to(robot.current.position, {x: -1}, 6)
 
-    .to(robot.current.rotation, {y: 0}, 11)
-    .to(robot.current.rotation, {x: 1}, 11)
-    .to(robot.current.position, {x: 0}, 11)
+
+
+    .to(robot.current.rotation, {y:-1}, 11)
+    .to(robot.current.rotation, {x: 0}, 11)
+    .to(robot.current.position, {x: 1}, 11)
 
     .to(robot.current.rotation, {y: 0}, 13)
-    .to(robot.current.rotation, {x: -1}, 13)    
+    .to(robot.current.rotation, {x: 0}, 13)    
     .to(robot.current.position, {x: 0}, 13)
 
-    .to(robot.current.rotation, {y: 0}, 16)   
+    .to(robot.current.rotation, {y: 1}, 16)   
     .to(robot.current.rotation, {x: 0}, 16) 
-    .to(robot.current.position, {x: 0}, 16)    
+    .to(robot.current.position, {x: -1}, 16)    
 
     .to(robot.current.rotation, {y: 0}, 20)   
     .to(robot.current.rotation, {x: 0}, 20) 
