@@ -38,7 +38,7 @@ export function Robot(props) {
     .to(robot.current.rotation, {x: 0}, 13)    
     .to(robot.current.position, {x: 0}, 13)
 
-    .to(robot.current.rotation, {y: 1}, 16)   
+    .to(robot.current.rotation, {y: 1}, 16)   ``
     .to(robot.current.rotation, {x: 0}, 16) 
     .to(robot.current.position, {x: -1}, 16)    
 
